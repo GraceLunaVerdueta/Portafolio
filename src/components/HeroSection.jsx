@@ -49,7 +49,7 @@ export const HeroSection = () => {
         <div className="mt-0 md:mt-0 md:w-1/2 flex justify-center">
           <div className="relative w-48 h-48 md:w-64 md:h-64 rounded-full border-4 border-white shadow-[0_0_100px_rgba(255,255,255,0.8)] overflow-hidden">
             <img
-              src="foto.png" // 👉 aquí pones la ruta de tu foto
+              src="/Portafolio/foto.png" // 👉 aquí pones la ruta de tu foto
               alt="Grace Luna Verdueta"
               className="w-full h-full object-cover rounded-full"
             />
