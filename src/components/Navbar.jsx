@@ -39,7 +39,7 @@ export const Navbar = () => {
           behavior: "smooth"
         });
       }
-    }, 100);
+    }, 100);
   };
 
   return (
