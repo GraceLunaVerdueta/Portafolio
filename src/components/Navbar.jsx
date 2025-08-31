@@ -30,7 +30,7 @@ export const Navbar = () => {
     setTimeout(() => {
       const element = document.querySelector(href);
       if (element) {
-        const offset = 80; // altura del navbar
+        const offset = 30; // altura del navbar
         const elementPosition = element.getBoundingClientRect().top;
         const offsetPosition = elementPosition + window.pageYOffset - offset;
         
