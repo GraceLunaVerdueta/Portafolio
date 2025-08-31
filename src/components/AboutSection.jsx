@@ -42,7 +42,7 @@ export const AboutSection = () => {
               </a>
 
               <a
-                href="Grace_Luna_Verdueta_CV.pdf"
+                href="/Portafolio/Grace_Luna_Verdueta_CV.pdf"
                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
               >
                 Download CV
