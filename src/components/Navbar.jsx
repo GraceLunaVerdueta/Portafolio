@@ -22,6 +22,26 @@ export const Navbar = () => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  // Function to handle smooth scrolling with offset
+  const handleNavClick = (href) => {
+    setIsMenuOpen(false);
+    
+    setTimeout(() => {
+      const element = document.querySelector(href);
+      if (element) {
+        const offset = 80; // Adjust this value based on your navbar height
+        const elementPosition = element.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - offset;
+        
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: "smooth"
+        });
+      }
+    }, 100);
+  };
+
   return (
     <nav
       className={cn(
