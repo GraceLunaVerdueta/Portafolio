@@ -16,21 +16,21 @@ export const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.screenY > 10);
+      setIsScrolled(window.scrollY > 10);
     };
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Function to handle smooth scrolling with offset
+  // 🔹 Copiado del primer código
   const handleNavClick = (href) => {
     setIsMenuOpen(false);
     
     setTimeout(() => {
       const element = document.querySelector(href);
       if (element) {
-        const offset = 80; // Adjust this value based on your navbar height
+        const offset = 80; // altura del navbar
         const elementPosition = element.getBoundingClientRect().top;
         const offsetPosition = elementPosition + window.pageYOffset - offset;
         
@@ -39,8 +39,8 @@ export const Navbar = () => {
           behavior: "smooth"
         });
       }
-    }, 100);
-  };
+    }, 100);
+  };
 
   return (
     <nav
@@ -53,6 +53,10 @@ export const Navbar = () => {
         <a
           className="text-xl font-bold text-primary flex items-center"
           href="#hero"
+          onClick={(e) => {
+            e.preventDefault();
+            handleNavClick("#hero");
+          }}
         >
           <span className="relative z-10">
             <span className="text-glow text-foreground"> Grace Luna </span>{" "}
@@ -67,6 +71,10 @@ export const Navbar = () => {
               key={key}
               href={item.href}
               className="text-foreground/80 hover:text-primary transition-colors duration-300"
+              onClick={(e) => {
+                e.preventDefault();
+                handleNavClick(item.href);
+              }}
             >
               {item.name}
             </a>
@@ -101,7 +109,7 @@ export const Navbar = () => {
                 onClick={(e) => {
                   e.preventDefault();
                   handleNavClick(item.href);
-                }}
+                }}
               >
                 {item.name}
               </a>
