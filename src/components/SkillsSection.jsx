@@ -7,24 +7,35 @@ const skills = [
   { name: "JavaScript", level: 90, category: "frontend" },
   { name: "React", level: 90, category: "frontend" },
   { name: "TypeScript", level: 85, category: "frontend" },
-  { name: "Tailwind CSS", level: 90, category: "frontend" },
   { name: "Next.js", level: 80, category: "frontend" },
 
   // Backend
   { name: "Node.js", level: 80, category: "backend" },
-  { name: "Express", level: 75, category: "backend" },
-  { name: "MongoDB", level: 70, category: "backend" },
-  { name: "PostgreSQL", level: 65, category: "backend" },
-  { name: "GraphQL", level: 60, category: "backend" },
+
 
   // Tools
   { name: "Git/GitHub", level: 90, category: "tools" },
-  { name: "Docker", level: 70, category: "tools" },
   { name: "Figma", level: 85, category: "tools" },
   { name: "VS Code", level: 95, category: "tools" },
+
+  // Programming
+  { name: "Python", level: 90, category: "programming" },
+  { name: "C++", level: 85, category: "programming" },
+  { name: "Java", level: 95, category: "programming" },
+  { name: "JavaScript", level: 95, category: "programming" },
+  { name: "C#", level: 95, category: "programming" },
+  // Mechatronics
+  { name: "ROS2", level: 95, category: "mechatronics" },
+  { name: "Matlab/ Simulink", level: 95, category: "mechatronics" },
+  { name: "Solidworks", level: 95, category: "mechatronics" },
+  { name: "MCU programming (STM y ARM),", level: 95, category: "mechatronics" },
+  { name: "AI", level: 95, category: "mechatronics" },
+  { name: "Computer Vision", level: 95, category: "mechatronics" },
 ];
 
-const categories = ["all", "frontend", "backend", "tools"];
+  
+
+const categories = ["all", "frontend", "backend", "tools","programming","mechatronics"];
 
 export const SkillsSection = () => {
   const [activeCategory, setActiveCategory] = useState("all");

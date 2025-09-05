@@ -4,7 +4,7 @@ const projects = [
   {
     id: 1,
     title: "Hydrobot Project",
-    description: "An Autonomous, Solar-Powered USV Platform for High-Resolution Water Sampling.",
+    description: "An Autonomous, Solar-Powered USV Platform for High-Resolution Water Sampling. Conducted field testing in Río Desaguadero, Puente Español, and Achocalla, and led embedded systems development. Recognized for contributions to research, innovation, and STEM outreach in rural Oruro.",
     image: "/Portafolio/hydrobot.png",
     tags: ["Embedded_System", "ROS", "Automation","Electronics","Scientific_Outreach","Programming"],
     demoUrl: "https://hydrobot.solutions/",
@@ -37,7 +37,7 @@ export const ProjectsSection = () => {
       <div className="container mx-auto max-w-5xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           {" "}
-          Featured <span className="text-primary"> Projects </span>
+          Featured <span className="text-primary"> Projects and Awards</span>
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
