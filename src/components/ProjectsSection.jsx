@@ -3,32 +3,31 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
+    title: "Hydrobot Project",
+    description: "An Autonomous, Solar-Powered USV Platform for High-Resolution Water Sampling.",
+    image: "/Portafolio/project1.png",
+    tags: ["Embedded_System.js", "ROS.js", "Automation.js","Electronics.js","Scientific_Outreach.js","Programming.js"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://hydrobot.solutions/",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
-    description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
+    title: "NASA Human Exploration Rover Challenge 2025",
+    description:"Designing and operating a lunar terrain vehicle. Ranked in the top 5 during one competition day and received the Social Media Award for documenting mechanical work and STEAM outreach",
+    image: "/Portafolio/project2.png",
+    tags: ["Mechanical_Design,js", "Structural_Analysis.js", "STEM_Outreach_&_Education.js","Team_Collaboration.js"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://vemecherc.wixsite.com/vemec",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Huawei - Seeds for the Future",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
-    image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+      "Selected as one of the top 10 Bolivian university students for the 'Seeds for the Future' program. Scholarship awarded by Huawei to receive instruction and mentorship from industry experts in AI, 5G, and Cloud Computing.",
+    image: "/Portafolio/project3.png",
+    tags: ["IA.js", "5G.js", "Cloud_Computing.js"],
     demoUrl: "#",
-    githubUrl: "#",
+    githubUrl: "https://www.huawei.com/mx/news/mx/2024/seeds-for-the-future-bolivia",
   },
 ];
 
