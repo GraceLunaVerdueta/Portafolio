@@ -19,18 +19,18 @@ const skills = [
   { name: "VS Code", level: 95, category: "tools" },
 
   // Programming
-  { name: "Python", level: 90, category: "programming" },
-  { name: "C++", level: 85, category: "programming" },
-  { name: "Java", level: 95, category: "programming" },
-  { name: "JavaScript", level: 95, category: "programming" },
-  { name: "C#", level: 95, category: "programming" },
+  { name: "Python", level: 98, category: "programming" },
+  { name: "C++", level: 98, category: "programming" },
+  { name: "Java", level: 94, category: "programming" },
+  { name: "JavaScript", level: 96, category: "programming" },
+  { name: "C#", level: 90, category: "programming" },
   // Mechatronics
-  { name: "ROS2", level: 95, category: "mechatronics" },
-  { name: "Matlab/ Simulink", level: 95, category: "mechatronics" },
-  { name: "Solidworks", level: 95, category: "mechatronics" },
-  { name: "MCU programming (STM y ARM),", level: 95, category: "mechatronics" },
-  { name: "AI", level: 95, category: "mechatronics" },
-  { name: "Computer Vision", level: 95, category: "mechatronics" },
+  { name: "ROS2", level: 92, category: "mechatronics" },
+  { name: "Matlab/ Simulink", level: 98, category: "mechatronics" },
+  { name: "Solidworks", level: 94, category: "mechatronics" },
+  { name: "MCU programming (STM y ARM)", level: 95, category: "mechatronics" },
+  { name: "AI", level: 98, category: "mechatronics" },
+  { name: "Computer Vision", level: 96, category: "mechatronics" },
 ];
 
   
