@@ -5,12 +5,12 @@ const skills = [
   // Frontend
   { name: "HTML/CSS", level: 95, category: "frontend" },
   { name: "JavaScript", level: 90, category: "frontend" },
-  { name: "React", level: 90, category: "frontend" },
+  { name: "React", level: 75, category: "frontend" },
   //{ name: "TypeScript", level: 85, category: "frontend" },
   //{ name: "Next.js", level: 80, category: "frontend" },
 
   // Backend
-  { name: "Node.js", level: 80, category: "backend" },
+  { name: "Node.js", level: 75, category: "backend" },
 
 
   // Tools
@@ -25,10 +25,10 @@ const skills = [
   { name: "JavaScript", level: 96, category: "programming" },
   { name: "C#", level: 90, category: "programming" },
   // Mechatronics
-  { name: "ROS2", level: 92, category: "mechatronics" },
+  { name: "ROS2", level: 95, category: "mechatronics" },
   { name: "Matlab/ Simulink", level: 98, category: "mechatronics" },
   { name: "Solidworks", level: 94, category: "mechatronics" },
-  { name: "MCU programming (STM y ARM)", level: 95, category: "mechatronics" },
+  { name: "MCU programming (STM y ARM)", level: 98, category: "mechatronics" },
   { name: "AI", level: 98, category: "mechatronics" },
   { name: "Computer Vision", level: 96, category: "mechatronics" },
 ];
